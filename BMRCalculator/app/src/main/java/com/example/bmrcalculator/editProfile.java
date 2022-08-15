@@ -67,7 +67,7 @@ public class editProfile extends AppCompatActivity {
                     alterAge.setText(inputAge);
                     alterHeight.setText(inputHeight);
                     alterWeight.setText(inputWeight);
-                    if (inputGender == "Male"){
+                    if (inputGender.equals("Male")){
                         alterMale.setChecked(true);
                     } else {
                         alterFemale.setChecked(true);
@@ -104,7 +104,7 @@ public class editProfile extends AppCompatActivity {
                 bundle.putString("oldname", oldname);
                 bundle.putString("name", name);
                 bundle.putString("age", age);
-                bundle.putString("gender", "Male");
+                bundle.putString("gender", gender1);
                 bundle.putString("height", height);
                 bundle.putString("weight", weight);
                 Intent intent = new Intent();
