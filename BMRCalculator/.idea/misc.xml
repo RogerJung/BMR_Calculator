@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BMRCalculator/app/src/main/res/drawable/ic_launcher_background.xml" value="0.123" />
+        <entry key="..\:/BMRCalculator/app/src/main/res/layout/activity_create_record.xml" value="0.1" />
+        <entry key="..\:/BMRCalculator/app/src/main/res/layout/activity_edit_profile.xml" value="0.1" />
+        <entry key="..\:/BMRCalculator/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/BMRCalculator/app/src/main/res/layout/activity_show_record.xml" value="0.2191358024691358" />
+        <entry key="..\:/BMRCalculator/app/src/main/res/layout/activity_update_record.xml" value="0.264" />
+        <entry key="..\:/BMRCalculator/app/src/main/res/layout/addrecord.xml" value="0.14984863773965693" />
+        <entry key="..\:/BMRCalculator/app/src/main/res/layout/fragment_test01_bmi.xml" value="0.1" />
+        <entry key="..\:/BMRCalculator/app/src/main/res/layout/layout.xml" value="0.4" />
+        <entry key="..\:/BMRCalculator/app/src/main/res/layout/layout1.xml" value="0.17961654894046417" />
+        <entry key="..\:/BMRCalculator/app/src/main/res/layout/layout2.xml" value="0.17078708375378407" />
+        <entry key="..\:/BMRCalculator/app/src/main/res/menu/menulist.xml" value="0.1390625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.17280524722502522" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

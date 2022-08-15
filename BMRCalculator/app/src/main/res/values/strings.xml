@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BMRCalculator</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create">CREATE</string>
+    <string name="name">Name</string>
+    <string name="divide">|</string>
+    <string name="bmr">BMR</string>
+    <string name="createTitle">Creating Record</string>
+    <string name="hint">hint</string>
+    <string name="modifyTitle">Modifying Record</string>
+</resources>

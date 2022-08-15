@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".createRecord">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#b0cbf5"
+        android:clickable="false">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="@string/createTitle"
+                android:textColor="#AD000000"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <TableLayout
+                android:layout_width="409dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp">
+
+                    <TextView
+                        android:id="@+id/createName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:text="Name : "
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/editName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/hint"
+                        android:inputType="textPersonName"
+                        android:textSize="20sp"
+                        tools:ignore="InvalidId" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp">
+
+                    <TextView
+                        android:id="@+id/createGender"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:text="Gender :  "
+                        android:textSize="20sp" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/radioGroup" >
+
+                        <RadioButton
+                            android:id="@+id/createMale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:minHeight="40dp"
+                            android:text="Male"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+                        <RadioButton
+                            android:id="@+id/createFemale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="100dp"
+                            android:layout_marginTop="-40dp"
+                            android:minHeight="40dp"
+                            android:text="Female"
+                            tools:ignore="TouchTargetSizeCheck" />
+
+
+                    </RadioGroup>
+
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp">
+
+                    <TextView
+                        android:id="@+id/createAge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:text="Age : "
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/editAge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/hint"
+                        android:inputType="textPersonName"
+                        android:textSize="20sp"
+                        tools:ignore="InvalidId" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp">
+
+                    <TextView
+                        android:id="@+id/createHeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:text="Height(cm) : "
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/editHeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/hint"
+                        android:inputType="textPersonName"
+                        android:textSize="20sp"
+                        tools:ignore="InvalidId" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp">
+
+                    <TextView
+                        android:id="@+id/createWeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:text="Weight(kg) : "
+                        android:textSize="20sp" />
+
+                    <EditText
+                        android:id="@+id/editWeight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="10"
+                        android:hint="@string/hint"
+                        android:inputType="textPersonName"
+                        android:textSize="20sp"
+                        tools:ignore="InvalidId" />
+                </TableRow>
+
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginRight="30dp"
+                    android:background="#5a595a"
+                    android:text="CANCEL"
+                    android:textColor="#FFFFFF" />
+
+                <Button
+                    android:id="@+id/send"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="#5a595a"
+                    android:text="SEND"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
